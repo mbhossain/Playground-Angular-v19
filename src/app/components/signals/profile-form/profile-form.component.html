@@ -1,0 +1,11 @@
+<form [formGroup]="profileForm">
+    <label>
+        First Name:
+        <input formControlName="firstName">
+    </label>
+    <label>
+        Last Name:
+        <input formControlName="lastName">
+    </label>
+</form>
+<p>Full Name: {{ fullName() }}</p>
