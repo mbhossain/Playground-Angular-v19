@@ -1,0 +1,10 @@
+/* component styles */
+.component-container {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.component-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}

@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* Light Theme */
+:root {
+    --primary-color: #1976d2;
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    --primary-color: #bb86fc;
+    --background-color: #121212;
+    --text-color: #ffffff;
+}
+
+/* Apply the variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
