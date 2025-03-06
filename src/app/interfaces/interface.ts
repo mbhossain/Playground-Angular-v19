@@ -8,3 +8,9 @@ export interface CartItem {
     product: Product;
     quantity: number;
 }
+
+export interface Notification {
+    id: number;
+    message: string;
+    read: boolean;
+}
