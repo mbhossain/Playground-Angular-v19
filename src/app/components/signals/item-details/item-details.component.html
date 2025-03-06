@@ -1,0 +1,9 @@
+<div>
+    <select (change)="selectItem($event)">
+        <option *ngFor="let item of items" [value]="item.id">{{ item.name }}</option>
+    </select>
+    <div *ngIf="itemDetails()">
+        <h3>Item Details</h3>
+        <p>{{ itemDetails() | json }}</p>
+    </div>
+</div>

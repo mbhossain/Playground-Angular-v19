@@ -4,6 +4,7 @@ import { ProfileFormComponent } from './components/signals/profile-form/profile-
 import { ThemeToggleComponent } from './components/signals/theme-toggle/theme-toggle.component';
 import { ProductListComponent } from './components/signals/product-list/product-list.component';
 import { ShoppingCartComponent } from './components/signals/shopping-cart/shopping-cart.component';
+import { ItemDetailsComponent } from './components/signals/item-details/item-details.component';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,9 @@ import { ShoppingCartComponent } from './components/signals/shopping-cart/shoppi
     // RouterOutlet
     // , ProfileFormComponent
     // , ThemeToggleComponent
-    ProductListComponent
-    , ShoppingCartComponent
+    // ProductListComponent
+    // , ShoppingCartComponent
+    ItemDetailsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
